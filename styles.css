@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blanchedalmond;
+}
+.hyd-img {
+  background-image: url("images/charminar2.png");
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  margin-top: 100px;
+  border-radius: 6px;
+  padding: 5px;
+  background-color: green;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif, "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  margin-bottom: 3px;
+}
+
+#main-text {
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  background-color: midnightblue;
+  padding: 6px 3px 3px 7px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.activities {
+  background: azure;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  margin-bottom: 30px;
+}
+
+#top-three {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: navy;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+#imax-pic {
+  background-image: url(images/imax.png);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.imax {
+  margin-left: 80px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+#imax-info {
+  font-weight: lighter;
+  font-size: small;
+}
+
+.picnic {
+  font-size: small;
+}
+#picnic-pic {
+  background-image: url("images/park.png");
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+#sports-pic {
+  background-image: url("images/sports.png");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.sports {
+  font-size: small;
+}
+.item-aligner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.visiting-card {
+  background-color: lightskyblue;
+  border-radius: 5px;
+  width: 400px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+#my-pic {
+  background-image: url("images/per.png");
+  background-size: cover;
+  width: 150px;
+  height: 200px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.guide-text {
+  width: 200px;
+  padding: 10px 20px;
+}
